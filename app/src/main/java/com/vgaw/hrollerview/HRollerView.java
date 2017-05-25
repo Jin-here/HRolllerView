@@ -1,4 +1,4 @@
-package vgaw.com.hrollerview;
+package com.vgaw.hrollerview;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -111,7 +111,7 @@ public class HRollerView extends HorizontalScrollView {
                 smoothScrollBy(-rest, 0);
             }
             int now = i + (showItemCount / 2) + 1;
-            Log.d("WheelView", "calStop: " + now);
+            Log.d("HRollerView", "calStop: " + now);
             adapter.onItemSelected(lstI, now, root.getChildAt(lstI), root.getChildAt(now));
             lstI = now;
         }

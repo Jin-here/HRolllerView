@@ -1,4 +1,4 @@
-package vgaw.com.hrollerview;
+package com.vgaw.hrollerview;
 
 import android.graphics.Color;
 import android.os.Bundle;
